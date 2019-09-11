@@ -1,0 +1,30 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/logs/logs"
+  ],
+  "window": {
+    "navigationBarBackgroundColor": "#f80",
+    "navigationBarTitleText": "我的小程序",
+    "navigationBarTextStyle": "white"
+  },
+  "tabBar": {
+    "color": "#999",
+    "selectedColor": "#999",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "任务清单",
+        "iconPath": "/assets/todos.png",
+        "selectedIconPath": "/assets/todos-active.png"
+      },
+      {
+        "pagePath": "pages/logs/logs",
+        "text": "日志",
+        "iconPath": "/assets/logs.png",
+        "selectedIconPath": "/assets/logs-active.png"
+      }
+    ]
+  },
+  "sitemapLocation": "sitemap.json"
+}
